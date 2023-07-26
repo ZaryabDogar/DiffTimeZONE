@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background:linear-gradient(120deg ,rgb(51, 19, 83)50%, rgb(0, 0, 0))50%;
+    }
+.container{
+    display: flex;
+    width: 50%;
+    min-width: 500px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: rgba(249, 249, 249, 0.587);
+
+}
+.heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+ h1 ,.display p{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.istel {
+
+margin:20px 0px;
+
+}
+
+.text ,select{
+    outline: none;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+    text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+
+
+}
+.text {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#display{
+    margin: 12px 0px 10px 0px;
+}
+.btn ,button
+{
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 10%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 1s ease-in-out;
+    padding: 2px;
+}
+.btn:hover{
+    filter: drop-shadow(4px 3px 5px black );
+    transition: 200ms ease-in-out;
+}
+.animation{
+    animation: zari 3s ease-in-out 0s infinite ;
+}
+@keyframes zari {
+    
+    0%{
+        scale: 1.1;
+    }
+    50%{
+        scale: 0.8;
+    }
+    100%{
+        scale: 1.1;
+    }
+}
